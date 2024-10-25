@@ -1,0 +1,100 @@
+                             Module (JAVASCRIPT BASIC & DOM) – 4
+
+Q-1:What is JavaScript? 
+Ans:It is a light-weighted programming language (“scripting language”) 
+for developing interactive web pages. It can insert dynamic text into the HTML elements.
+JavaScript is also known as the browser’s language.
+
+Q-2:What is the use of isNaN function? 
+Ans:The isNaN() function determines whether a value is NaN, first converting the value to 
+a number if necessary. Because coercion inside the isNaN() function can be surprising.
+
+Q-3:What is negative Infinity? 
+Ans:negative Infinity is a special numeric value that is returned when an arithmetic operation
+or mathematical function generates a negative value greater than the largest representable number 
+in JavaScript (i.e., more negative than Number.
+
+Q-4:Which company developed JavaScript?
+Ans:JavaScript was created at Netscape Communications by Brendan Eich in 1995. Netscape and Eich 
+designed JavaScript as a scripting language for use with the company's flagship web browser, 
+Netscape Navigator.
+
+Q-5:What are undeclared and undefined variables? 
+Ans:Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. 
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.
+If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with the return value as “undefined”.
+
+Q-6:Write the code for adding new elements dynamically? 
+Ans:Creation of new element: New elements can be created in JS by using the createElement() method.
+code example:
+document.createElement("<tagName>");  
+// Where <tagName> can be any HTML 
+// tagName like div, ul, button, etc.
+
+// newDiv element has been created
+For Eg: let newDiv = document.createElement("div");
+
+Q-7:What is the difference between ViewState and SessionState? 
+Ans:ViewState:ViewState is used for client-side state management, allowing the client to maintain state information directly on their browser,
+which enhances the user experience by preserving data between postbacks.
+
+SessionState:SessionState manages the state on the server-side, enabling the server to store user-specific data throughout a session. 
+This method is useful for managing user information and preferences securely and efficiently.
+
+Q-8:What is === operator?
+Ans:Strict Equality Operator is used to compare two operands and return true if both the value and type of operands are the same.
+Since type conversion is not done, so even if the value stored in operands is the same but their type is different the operation will return false. 
+
+Q-9:How can the style/class of an element be changed? 
+Ans: querySelector() method to select that element by passing its CSS selector as an argument.
+This method returns the first element in the document that matches the selector. 
+Access the classList property of the selected element to manipulate its classes.
+
+Q-10:How to read and write a file using JavaScript? 
+Ans:Handling file operations such as reading and writing is a common requirement , especially on the server side using Node.js. 
+This article explains how to perform these operations using Node.js’s built-in fs (File System) module.
+
+Q-11:What are all the looping structures in JavaScript?
+Ans:The statements for loops provided in JavaScript are:
+1.for statement
+2.do...while statement
+3.while statement
+4.labeled statement
+5.break statement
+6.continue statement
+7.for...in statement
+8.for...of statement
+
+Q-12:How can you convert the string of any base to an integer in JavaScript?
+Ans:This operation is useful while dealing with user inputs, data from APIs, or when performing mathematical operations.
+Here, we will explain all possible approaches to convert string to an integer.
+Using Number() Method
+Using Unary + Operator
+Using parseInt() Method
+Using Math.floor() Method
+Using Bitwise Operator
+Using Math.round() Method
+Using BigInt() Constructor
+
+Q-13:What is the function of the delete operator? 
+Ans:The delete operator removes a property from an object. If the property's value is an object and there are no more 
+references to the object, the object held by that property is eventually released automatically.
+
+Q-14:What are all the types of Pop up boxes available in JavaScript? 
+Ans:JavaScript has three kind of popup boxes:
+1.Alert box
+2.Confirm box
+3.Prompt box
+
+Q-15:What is the use of Void (0)?
+Ans:When you use JavaScript void 0, it will return an undefined primitive value. This will prevent the browser 
+from opening a new or reloading the web page and allowing you to call the JavaScript through it.
+
+Q-16:How can a page be forced to load another page in JavaScript? 
+Ans:Navigating to a new page can be done using window. location. assign() . By using assign() , 
+the user will be able to get back to the landing page using the “back” button, as this does not change the browser's history.
+
+Q-17:What are the disadvantages of using innerHTML in JavaScript? 
+Ans:It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. 
+When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML.
+
